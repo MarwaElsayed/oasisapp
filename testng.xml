@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="oasisapp Regression Suite">
+  <test name="Regression Test">
+    <classes>
+       <class name="tests.PostedRequestsTest"/>
+    </classes>
+  </test> 
+</suite>

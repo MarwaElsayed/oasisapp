@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [oasisapp Regression Suite]">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.PostedRequestsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="PostedRequestedDisplayedAsExpected"/>
+        </methods>
+      </class> <!-- tests.PostedRequestsTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [oasisapp Regression Suite] -->
